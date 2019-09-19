@@ -1,0 +1,301 @@
+h1{
+    background-color:lightgray ;
+    text-align:right;
+    font-size:45px;
+    letter-spacing: 4px;
+    text-decoration: underline
+    
+}
+#firsth1{
+    
+    color:black;
+    font-style:"Comic Sans MS";
+    font-size:60px;
+    text-align: left;
+    letter-spacing: 5px;
+
+}
+
+#secondh1{
+    color:black;
+    background-color:lightgray;
+    font-style:"Comic Sans MS";
+    font-size:60px;
+    letter-spacing: 5px;
+    text-align: left;
+}
+#thirdh1{
+    background-color:lightgray;
+    font-style:"Comic Sans MS";
+    font-size:60px;
+    letter-spacing: 5px;
+    text-align: left;
+
+}
+#forthh1{
+    background-color:orange;
+    font-style:"Comic Sans MS";
+    font-size:60px;
+    letter-spacing: 5px;
+    text-align: left;
+}
+body{
+    background-color:lightgray;
+    margin-left:5%;
+    margin-right:5%;
+}
+#firstText{
+    font-size:15px;
+    letter-spacing: 2px;
+    color:white
+    
+}
+#secondText{
+    font-size:15px;
+    letter-spacing: 2px;
+    color:white;
+
+}
+a{
+    color:black;
+    letter-spacing: 2px;
+    font-size:25px;
+
+}
+#p1{
+    color:black;
+    font-size:20px;
+    text-decoration: underline;
+   
+}
+#firstPic{
+    margin-bottom:20px;
+    height:90%;
+    width:90%;
+}
+#secondPic{
+    margin-bottom:20px;
+    height:90%;
+    width:90%;
+}
+#thirdPic{
+    margin-bottom:20px;
+    height:90%;
+    width:90%;
+}
+#forthPic{
+    
+    height:90%;
+    width:90%;
+}
+#jumbotron{
+    background-color:lightgray;
+    /* margin-left:35%; */
+    margin-right:35%;    
+    letter-spacing: 6px;
+    
+}
+#jumbotron1{
+    
+    background-color:lightgrey;
+    /* margin-left:35%; */
+    margin-right:35%;
+    
+    
+}
+#jumbotron3{
+    background-color:lightgray;
+    margin-right:35%;
+}
+#jumbotron4{
+    background-color: orange
+}
+
+
+#gamingPic2{
+    margin-bottom: 20px;
+    margin-left:20px;
+    height: 70%;
+    width:30%;
+}
+#gamingPic1{
+    margin-bottom: 20px;
+    margin-left:20px;
+    height: 70%;
+    width:30%;
+}
+#gamingPic3{
+    margin-bottom:20px;
+    margin-left:20px;
+    height: 70%;
+    width:30%;
+    
+}
+#gamingPic4{
+    margin-bottom:20px;
+    margin-left:20px;
+    height: 70%;
+    width:25%;
+    
+}
+#gamingPic5{
+    margin-bottom:20px;
+    margin-left:20px;
+    height: 70%;
+    width:30%;
+    
+}#gamingPic6{
+    margin-bottom:20px;
+    margin-left:20px;
+    height: 70%;
+    width:30%;
+    
+}
+#gamingText1{
+    margin-left:20px;
+}
+
+#cartext1{
+    text-align: center;
+    font-size:20px;
+}
+#carsPic1{
+    margin-left:7%;
+    height:70%;
+    width:30%;
+}   
+#carsPic2{
+    margin-left:1%;
+    height:70%;
+    width:30%;
+}
+#carsPic3{
+    margin-left:1%;
+    height:70%;
+    width:25%;
+}
+#familyPic1{
+    margin-left:3%;
+}
+#pcpic1{
+    height: 100%;
+    width:85%;
+}
+#pcpic2{
+    height:100%;
+    width:95%;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: cornflowerblue;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+#pcp{
+    font-size: 20px;
+
+}
+.responsive,{
+    height:auto;
+    width:100%;
+}
+#familyPic1{
+    margin-left:1%;
+    height:60%;
+    width:20%;
+}
+#familyPic2{
+    margin-left:1%;
+    height:25%;
+    width:20%;
+}
+#familyPic3{
+    margin-left:1%;
+    height:60%;
+    width:25%;
+}
+#familyPic4{
+    margin-left:1%;
+    height:60%;
+    width:25%;
+}
+#familyText1{
+    text-align: center;
+    margin-left:35%;
+    margin-top:3%;
+}
+/* Navbar  */
+
+body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:lightslategray;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
